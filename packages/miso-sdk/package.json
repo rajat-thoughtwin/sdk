@@ -1,6 +1,6 @@
 {
   "name": "@sushiswap/miso-sdk",
-  "version": "1.0.0-canary.65",
+  "version": "1.0.0-canary.66",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,5 +26,5 @@
   "devDependencies": {
     "tsdx": "^0.14.1"
   },
-  "gitHead": "91692fcae12faae898d5dbca7a6fa5b1f33e4478"
+  "gitHead": "056b001b03a005460bec4dac0816b86b3e94cb22"
 }

@@ -14,6 +14,7 @@ import {
   Palm,
   Telos,
   xDai,
+  Dev
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -32,7 +33,7 @@ export const NATIVE: NativeMap = {
   [ChainId.XDAI]: xDai.onChain(ChainId.XDAI),
   [ChainId.BSC]: Binance.onChain(ChainId.BSC),
   [ChainId.BSC_TESTNET]: Binance.onChain(ChainId.BSC_TESTNET),
-  // [ChainId.MOONBEAM_TESTNET]: Currency.GLMR,
+  [ChainId.MOONBEAM_TESTNET]: Dev.onChain(ChainId.MOONBEAM_TESTNET),
   [ChainId.ARBITRUM]: Ether.onChain(ChainId.ARBITRUM),
   [ChainId.ARBITRUM_TESTNET]: Ether.onChain(ChainId.ARBITRUM_TESTNET),
   [ChainId.AVALANCHE]: Avalanche.onChain(ChainId.AVALANCHE),
