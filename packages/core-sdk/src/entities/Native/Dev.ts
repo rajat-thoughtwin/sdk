@@ -6,7 +6,7 @@ import invariant from 'tiny-invariant'
 
 export class Dev extends NativeCurrency {
   protected constructor(chainId: number) {
-    super(chainId, 18, 'DEV', 'Moonriver')
+    super(chainId, 18, 'DEV', 'Moonbase')
   }
 
   public get wrapped(): Token {

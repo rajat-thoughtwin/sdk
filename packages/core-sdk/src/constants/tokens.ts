@@ -21,6 +21,8 @@ export const USDC: TokenMap = {
   [ChainId.FUSE]: new Token(ChainId.FUSE, USDC_ADDRESS[ChainId.FUSE], 6, 'USDC', 'USD Coin'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, USDC_ADDRESS[ChainId.TELOS], 6, 'USDC', 'USD Coin'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, USDC_ADDRESS[ChainId.MOONBEAM], 6, 'USDC', 'USD Coin'),
+  [ChainId.MOONBEAM_TESTNET]: new Token(ChainId.MOONBEAM_TESTNET, USDC_ADDRESS[ChainId.MOONBEAM_TESTNET], 6, 'USDC', 'USD Coin'),
+
 }
 
 export const USD: TokenMap = {
@@ -162,4 +164,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.FUSE]: new Token(ChainId.FUSE, SUSHI_ADDRESS[ChainId.FUSE], 18, 'SUSHI', 'SushiToken'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.MOONBEAM_TESTNET]: new Token(ChainId.MOONBEAM_TESTNET, SUSHI_ADDRESS[ChainId.MOONBEAM_TESTNET], 18, 'SUSHI', 'SushiToken'),
 }
