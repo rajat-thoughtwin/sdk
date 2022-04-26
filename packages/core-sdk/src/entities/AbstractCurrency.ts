@@ -22,7 +22,7 @@ export abstract class AbstractCurrency {
   /**
    * The decimals used in representing currency amounts
    */
-  public readonly decimals?: number
+  public readonly decimals: number
   /**
    * The symbol of the currency, i.e. a short textual non-unique identifier
    */

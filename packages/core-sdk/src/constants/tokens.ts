@@ -56,6 +56,7 @@ export const WETH9: TokenMap = {
   [ChainId.TELOS]: new Token(ChainId.TELOS, WETH9_ADDRESS[ChainId.TELOS], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WETH9_ADDRESS[ChainId.FUSE], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WETH9_ADDRESS[ChainId.MOONBEAM], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.MOONBEAM_TESTNET] : new Token(ChainId.MOONBEAM_TESTNET,WETH9_ADDRESS[ChainId.MOONBEAM_TESTNET],18,"WETH","Wrapped Ether")
 }
 
 export const WNATIVE: TokenMap = {
@@ -64,6 +65,8 @@ export const WNATIVE: TokenMap = {
   [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY],
   [ChainId.GÖRLI]: WETH9[ChainId.GÖRLI],
   [ChainId.KOVAN]: WETH9[ChainId.KOVAN],
+  [ChainId.MOONBEAM_TESTNET]: WETH9[ChainId.MOONBEAM_TESTNET],
+
   [ChainId.FANTOM]: new Token(ChainId.FANTOM, WNATIVE_ADDRESS[ChainId.FANTOM], 18, 'WFTM', 'Wrapped FTM'),
   [ChainId.FANTOM_TESTNET]: new Token(
     ChainId.FANTOM_TESTNET,
@@ -91,13 +94,6 @@ export const WNATIVE: TokenMap = {
   ),
   [ChainId.ARBITRUM]: WETH9[ChainId.ARBITRUM],
   [ChainId.ARBITRUM_TESTNET]: WETH9[ChainId.ARBITRUM_TESTNET],
-  [ChainId.MOONBEAM_TESTNET]: new Token(
-    ChainId.MOONBEAM_TESTNET,
-    WNATIVE_ADDRESS[ChainId.MOONBEAM_TESTNET],
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
   [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, WNATIVE_ADDRESS[ChainId.AVALANCHE], 18, 'WAVAX', 'Wrapped AVAX'),
   [ChainId.AVALANCHE_TESTNET]: new Token(
     ChainId.AVALANCHE_TESTNET,
@@ -164,5 +160,6 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.FUSE]: new Token(ChainId.FUSE, SUSHI_ADDRESS[ChainId.FUSE], 18, 'SUSHI', 'SushiToken'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MOONBEAM_TESTNET]: new Token(ChainId.MOONBEAM_TESTNET, SUSHI_ADDRESS[ChainId.MOONBEAM_TESTNET], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.MOONBEAM_TESTNET]: new Token(ChainId.MOONBEAM_TESTNET, SUSHI_ADDRESS[ChainId.MOONBEAM_TESTNET], 18, 'EFT', 'EnergyFiToken'),
+
 }

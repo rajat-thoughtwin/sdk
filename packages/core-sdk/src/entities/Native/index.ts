@@ -14,4 +14,5 @@ export { Palm } from './Palm'
 export { Fuse } from './Fuse'
 export { Telos } from './Telos'
 export { Glmr } from './Glmr'
-export { Dev } from './Dev'
+export { Moonbase } from './Moonbase'
+
